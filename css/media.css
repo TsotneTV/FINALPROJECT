@@ -1,0 +1,30 @@
+@media (max-width:1100px) {
+  .container {
+    width: 95%;
+  }
+}
+
+
+@media (max-width: 1240px) {
+  nav {
+    display: none;
+  }
+  .fa-bars {
+    display: block;
+  }
+  .fa-magnifying-glass {
+    display: none;
+  }
+  .fa-cart-shopping {
+    display: none;
+  }
+  .fa-user {
+    display: none;
+  }
+}
+@media (max-width: 550px)
+ {
+  .schoolname {
+    display: none;
+  }
+}
