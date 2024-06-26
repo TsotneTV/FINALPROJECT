@@ -16,7 +16,6 @@
     justify-content: space-between;
     align-items: center;
   }
-  
 }
 
 @media (max-width: 380px) {
@@ -24,3 +23,4 @@
     display: none;
   }
 }
+
