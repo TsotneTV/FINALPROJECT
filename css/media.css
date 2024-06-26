@@ -1,30 +1,26 @@
-@media (max-width:1100px) {
-  .container {
-    width: 95%;
+@media (max-width: 1010px) {
+  .navtext {
+    font-size: small;
   }
 }
 
-
-@media (max-width: 1240px) {
-  nav {
+@media (max-width: 970px) {
+  .Navtext {
+    display: none;
+  }
+  .headericons {
     display: none;
   }
   .fa-bars {
     display: block;
+    justify-content: space-between;
+    align-items: center;
   }
-  .fa-magnifying-glass {
-    display: none;
-  }
-  .fa-cart-shopping {
-    display: none;
-  }
-  .fa-user {
-    display: none;
-  }
+  
 }
-@media (max-width: 550px)
- {
-  .schoolname {
+
+@media (max-width: 380px) {
+  .headericons {
     display: none;
   }
 }

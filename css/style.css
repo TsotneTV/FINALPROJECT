@@ -3,39 +3,84 @@ header {
   flex-shrink: 0;
   background: #d1beaf;
 }
-body {
+html {
   scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: arialgeo;
+  src: url(fonts/arial_geo.ttf);
+}
+
+@font-face {
+  font-family: Bell MT;
+  src: url(fonts/BellMt.ttf);
+}
+
+@font-face {
+  font-family: "Copperplate Gothic Light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Copperplate Gothic Light"),
+    url("../fonts/copperplate-gothic-light.woff") format("woff");
+}
+
+header.firstheader {
+  padding: 10px 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  position: sticky !important;
+  width: 100%;
+  z-index: 5;
+  top: 0;
 }
 
 .container {
   /* border: solid 2px red; */
-  max-width: 1240 px;
+  max-width: 1240px;
   margin: 0 auto;
   width: 100%;
-  display: flex;
 }
 .divbox {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
+  /* border: 2px solid green; */
+  gap: 16px;
 }
 .logo {
-  margin-left: 104px;
   font-size: 50px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 .logotext {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 8px;
+  gap: 2px;
+  /* 
+  border: solid 2px yellow; */
 }
+.div > .logotext .Navtext {
+  gap: 12px;
+}
+
+header ul li::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  left: 50%;
+  bottom: -8px;
+  transition: 0.3s all ease-in-out;
+}
+
 .schoolname {
   display: flex;
-  width: 300px;
+  width: 240pxx;
   color: #2c1508;
   font-family: "Copperplate Gothic Light";
   font-size: 19px;
@@ -47,24 +92,38 @@ nav {
   justify-content: center;
   align-items: center;
   /* border: solid 2px green; */
+  position: relative;
 }
+.mtavari {
+  text-shadow: 8px 8px 16px rgba(22, 23, 24, 0.7);
+  position: relative;
+}
+
+.navlink {
+  color: #472d1c;
+  font-size: 16px;
+  font-weight: 400;
+  transition-duration: 0.4s;
+}
+nav > a p {
+  font-size: 25px;
+  color: #fff;
+}
+
+nav > a {
+  position: relative;
+}
+
 ul {
   display: flex;
   gap: 51px;
   align-items: center;
 }
-li a {
-  color: #472d1c;
-  font-family: "Copperplate Gothic Light";
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+ul li {
+  position: relative;
 }
-.navtext {
-  width: 59px;
-  height: 20px;
-  flex-shrink: 0;
+
+li a {
   color: #472d1c;
   font-family: "Copperplate Gothic Light";
   font-size: 18px;
@@ -72,10 +131,75 @@ li a {
   font-weight: 400;
   line-height: normal;
 }
+.li > a {
+  width: 59px;
+  height: 20px;
+  flex-shrink: 0;
+  font-family: "Copperplate Gothic Light";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+header ul li::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  left: 50%;
+  bottom: -8px;
+  transition: 0.3s all ease-in-out;
+}
+
+.navlink:hover {
+  color: #48e200;
+}
+
+.navlink {
+  position: relative;
+  letter-spacing: 0.5px;
+  padding: 0 10px;
+}
+
+.navlink::after {
+  content: "";
+  position: absolute;
+  background-color: #000000e1;
+  height: 3px;
+  width: 0%;
+  bottom: -10px;
+  left: 0px;
+  transition: 0.3s;
+}
+
+.navlink:hover::after {
+  width: 100%;
+}
+
+nav > li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 .fa-bars {
   display: none;
   font-size: 20px;
+  align-items: center;
+  justify-content: center;
 }
+
+.navburger {
+  display: inline-block;
+  display: flex;
+  margin: auto 0;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  /* border: solid 2px red; */
+}
+
 .headericons {
   gap: 20px;
   display: flex;
@@ -83,21 +207,53 @@ li a {
   justify-content: center;
 }
 .fa-magnifying-glass {
-  width: 28px;
-  height: 28px;
+  width: 23px;
+  height: 23px;
   flex-shrink: 0;
   font-size: 23px;
+  color: #2c1508;
 }
 .fa-cart-shopping {
-  width: 28px;
-  height: 28px;
+  width: 23px;
+  height: 23px;
   flex-shrink: 0;
   font-size: 23px;
+  color: #2c1508;
 }
 .fa-user {
-  width: 28px;
-  height: 28px;
+  width: 23px;
+  height: 23px;
   flex-shrink: 0;
   font-size: 23px;
-  margin-right: 112px;
+  color: #2c1508;
+}
+
+.fa-x {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.fa-bars, .hide-sidebar-button {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  
+}
+.Sidebar li a {
+  width: 100%;
 }
