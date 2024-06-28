@@ -2,9 +2,6 @@
   .navtext {
     font-size: small;
   }
-}
-
-@media (max-width: 970px) {
   .Navtext {
     display: none;
   }
@@ -18,9 +15,15 @@
   }
 }
 
+@media (max-width:790px) {
+  .gverditaimg {
+    margin-left: 0px;
+  margin-top:0px;
+  }
+}
+
 @media (max-width: 380px) {
   .headericons {
     display: none;
   }
 }
-
