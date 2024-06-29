@@ -151,13 +151,48 @@
           </div>
           <input required type="submit" class="submitbutton"  style="width: 100%;" >
         </form>
+      </main>  
+    </section>
+    <section class="s-6 container">
+      <h2 class="jointext">სკოლაში გაწევრინება გსურს?მაშინ რაღას უცდი?! შემოგვიერთი!</h2>
+      <main>
+        <form action="">
+          <figure>
+            <div class="mtavarimenu">
+              <label for="saxeligvari">მიუთითეთ სახელი და გვარი</label>
+              <input required id="saxeligvari" type="text" placeholder="სახელი გვარი">   
+            </div>
+            <div class="mtavarimenu">
+              <label for="age"> მიუთითეთ წლოვანება</label>  
+              <input required id="age" type="text" placeholder="ასაკი">
+            </div>
+            <div class="mtavarimenu">
+              <label for="reason">რატომ აირჩიეთ ჩვენი სკოლა?</label>
+              <textarea required name="reason1" id="reason" placeholder="ეს სკოლა ავირჩიე იმიტომ, რომ..."></textarea>
+            </div>
+          </figure>
+          <figure>
+            <div class="mtavarimenu">
+              <label for="email1">შეიყვანეთ პირადი ელფოსტა</label>
+              <input required type="email" name="email" id="email1" placeholder="Tsotne.Tivishvili@gmail.com">
+            </div>
+            <div class="mtavarimenu">
+              <label for="number">მიუთითეთ თქვენი ნომერი</label>
+              <input required type="" name="number" id="number" placeholder="599 45 09 74">
+            </div>
+            <div class="mtavarimenu">
+              <label for="personalid">მიუთითეთ მეურვის პირადი ნომერი</label>
+              <input required type="personalid" name="personalid" id="personalid" placeholder="35003299123">
+            </div>
+            <input required type="submit" class="submitbutton" style="width: 100%;" >
+          </figure>
+        </form>
       </main>
-    </div>
     </section>
     <script>
       function showSidebar() {
         const sidebar = document.querySelector(".sidebar");
-        sidebar.style.display = "flex";
+        sidebar.style.display = "flex";  
       }
       function hideSidebar() {
         const sidebar = document.querySelector(".sidebar");
