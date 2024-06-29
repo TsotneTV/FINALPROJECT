@@ -36,22 +36,22 @@
     -o-transition: right 0.3s ease-in-out;
     transition: right 0.3s ease-in-out;
   }
+}
 
-  @media (max-width: 830px) {
-    .maintitle {
-      font-size: 20px;
-    }
-    .basicinfo {
-      font-size: 17px;
-      gap: 20px;
-    }
-    .naxemeti {
-      font-size: 16px;
-    }
-    .gverditaimg {
-      width: 220px;
-      height: 200px;
-    }
+@media (max-width: 830px) {
+  .maintitle {
+    font-size: 20px;
+  }
+  .basicinfo {
+    font-size: 17px;
+    gap: 20px;
+  }
+  .naxemeti {
+    font-size: 16px;
+  }
+  .gverditaimg {
+    width: 220px;
+    height: 200px;
   }
 }
 
@@ -73,7 +73,7 @@
   .gaformeba3 {
     width: 50%;
     max-width: 200px; /* Adjust width as needed */
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-left: 30px;
   }
 
@@ -178,7 +178,8 @@
     margin-top: 15px;
   }
 }
-. @media (max-width: 760px) {
+
+@media (max-width: 760px) {
   .maintitle {
     font-size: 16px;
   }
@@ -191,6 +192,51 @@
   .gverditaimg {
     width: 180px;
     height: 180px;
+  }
+}
+
+
+@media (max-width: 730px) {
+  .footer,
+  footer section {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .footer {
+    margin-bottom: 0;
+  }
+
+  .navigation {
+    margin-top: 0;
+    padding-right: 0;
+  }
+
+  .figure1 {
+    margin-top: 20px;
+    margin-left: 0; /* Remove any left margin */
+  }
+
+  footer span {
+    order: 4;
+    margin-top: 20px;
+  }
+
+  .h4footer2 span {
+    margin-left: 0;
+  }
+
+  .figure1 {
+    display: flex;
+    text-align: left;
+  }
+
+  /* New styles to align contact and social media to the left edge */
+  .contact,
+  .social-media {
+    margin-left: 0;
+    padding-left: 0;
   }
 }
 

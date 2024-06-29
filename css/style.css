@@ -404,18 +404,18 @@ nav > li {
 
 .mosamartleebi {
   margin-top: 100px;
-  display: flex; 
+  display: flex;
   font-size: 30px;
 }
 
- .leqtorebi { 
+.leqtorebi {
   margin-top: 10px;
   display: flex;
   justify-content: center;
   font-size: 35px;
   font-weight: 500;
   color: #800000;
-} 
+}
 
 .gaformeba {
   border-radius: 100%;
@@ -478,7 +478,6 @@ nav > li {
   font-weight: 400;
   justify-content: center;
   align-items: center;
-  
 }
 
 .daxasiateba {
@@ -491,13 +490,6 @@ nav > li {
   padding-top: 10px;
   justify-content: space-between;
 }
-
-.wodeba1,
-.wodeba2,
-.wodeba3 {
-  /* border: 2px solid green;   */
-}
-
 
 .s-4 {
   height: 900px;
@@ -756,4 +748,100 @@ textarea:focus {
 .s-6 textarea::placeholder {
   color: #6d6a6a;
   font-size: 16px;
+}
+/* .mainfooter {
+  max-width: 1200px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+footer {
+  padding: 40px;
+  width: 100%;
+  background-color: #bf967b;
+}
+
+.footer,
+footer section {
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.footerlogo {
+  width: 50px;
+  opacity: 150%;
+}
+
+footer section {
+  width: 100%;
+  max-width: 700px;
+}
+footer figure a:first-child {
+  display: flex;
+  gap: 10px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+footer figure .footertitle {
+  font-size: 25px;
+  color: #844c32;
+}
+footer ul li a {
+  color: #d1f2eb;
+  font-size: 16px;
+}
+footer ul li a:hover {
+  text-decoration: underline;
+}
+footer ul {
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 15px;
+}
+.h4footer {
+  font-size: 18px;
+  font-weight: 600;
+  color: #844c32;
+  margin-top: 20px;
+}
+
+.navigation {
+  margin-top: 20px;
+  padding-right: 40px;
+}
+
+.pfooter {
+  margin-bottom: 20px;
+  color: #844c32;
+}
+
+.figure1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+
+.h4footer2,
+.h4footer3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #844c32;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+
+.fa-phone .fa-envelope .fa-location-dot {
+  display: flex;
 }
