@@ -81,11 +81,11 @@ header ul li::before {
 .schoolname {
   display: flex;
   width: 240pxx;
-  color: #2c1508;
+  color: #7B241C;
   font-family: "Copperplate Gothic Light";
   font-size: 19px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   line-height: normal;
 }
 nav {
@@ -100,9 +100,9 @@ nav {
 }
 
 .navlink {
-  color: #472d1c;
+  color: #7B241C;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
   transition-duration: 0.4s;
 }
 nav > a p {
