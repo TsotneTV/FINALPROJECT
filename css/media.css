@@ -195,7 +195,6 @@
   }
 }
 
-
 @media (max-width: 730px) {
   .footer,
   footer section {
@@ -238,8 +237,22 @@
     margin-left: 0;
     padding-left: 0;
   }
+  .ptext {
+    font-size: 40px;
+  }
 }
 
+@media (max-width: 670px) {
+  .s-22 {
+    margin-top: 200px;
+  }
+}
+
+@media (max-width: 600px) {
+  .s-22 {
+    margin-top: 150px;
+  }
+}
 @media (max-width: 570px) {
   .smallinfo {
     flex-direction: column;
@@ -264,8 +277,71 @@
   }
 }
 
+@media (max-width: 570px) {
+  .mosamartleebi {
+    font-size: 15px;
+  }
+  .gaformeba .gaformeba2 .gaformeba3 {
+    padding: 30px;
+    font-size: 12px;
+  }
+
+  .fa-landmark .fa-gavel .fa-scale-balanced {
+    font-size: 10px;
+  }
+
+  .daxasiateba {
+    font-size: 14px;
+  }
+  .ptext {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 565px) {
+  .mosamartleebi {
+    font-size: 13px;
+    max-width: auto;
+  }
+  .gaformeba .gaformeba2 .gaformeba3 {
+    padding: 16px;
+    font-size: 10px;
+  }
+
+  .fa-landmark .fa-gavel .fa-scale-balanced {
+    font-size: 7px;
+  }
+
+  .daxasiateba {
+    font-size: 11px;
+  }
+  .jointext {
+    font-size: 17px;
+  }
+  .contacttext {
+    font-size: 17px;
+  }
+}
+
 @media (max-width: 380px) {
   .headericons {
     display: none;
+  }
+  .ptext {
+    font-size: 19px;
+  }
+
+  .mttext > h2 {
+    font-size: 23px;
+  }
+
+  .mttext > p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 300) {
+  .ptext {
+    font-size: 12px;
   }
 }

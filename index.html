@@ -52,7 +52,7 @@
               ></a>
             </li>
             <li class="hideonMobile">
-              <a href="indexhtml" class="navlink mtavari">მთავარი</a>
+              <a href="#" class="navlink mtavari">მთავარი</a>
             </li>
             <li class="hideonMobile">
               <a href="#section2" class="navlink aboutus">ჩვენ შესახებ</a>
@@ -106,7 +106,7 @@
               ისეთი ცნობილი მოსამართლეები როგორიცაა მერაბ ტურავა და გიორგი
               კვერენჩხილაძე<a href="pages/aboutus.html"></a>...
             </p>
-            <a href="pages/team.html" class="naxemeti"
+            <a href="pages/aboutus.html" class="naxemeti"
               >იხილეთ მეტი <i class="fa-solid fa-arrow-right"></i
             ></a>
           </figure>
@@ -370,6 +370,16 @@
         const sidebar = document.querySelector(".sidebar");
         sidebar.style.display = "none";
       }
+    </script>
+    <script>
+      function getWindowSize() {
+        var width = window.innerWidth;
+        var height = window.innerHeight;
+        console.log("Width: " + width + ", Height: " + height);
+      }
+
+      window.addEventListener("resize", getWindowSize);
+      getWindowSize();
     </script>
   </body>
 </html>

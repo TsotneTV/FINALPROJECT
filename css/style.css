@@ -4,7 +4,7 @@ header {
   background: #d1beaf;
 }
 
-html{
+html {
   scroll-behavior: smooth !important;
 }
 
@@ -260,7 +260,7 @@ nav > li {
 }
 
 .backgroundlogo {
-  background-image: url(../images/mtlogo.jpg);
+  background-image: url(/images/mtlogo.jpg);
   width: 100%;
   height: 100%;
   background-attachment: fixed;
@@ -355,7 +355,7 @@ nav > li {
   align-items: flex-start;
 }
 
-.maintitle {
+/* .maintitle {
   color: #620808;
   font-size: 23px;
 }
@@ -365,7 +365,7 @@ nav > li {
   line-height: 1.1;
   font-weight: 500;
   color: #21618c;
-}
+} */
 
 .naxemeti {
   padding: 20px 30px;
@@ -841,4 +841,69 @@ footer ul {
 
 .fa-phone .fa-envelope .fa-location-dot {
   display: flex;
+}
+
+.backgroundlogo1 {
+  background-image: url(../images/aboutusback.png);
+  width: 100%;
+  height: 70%;
+  background-attachment: fixed;
+  background-position: calc(100% / 6);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  background-position: calc(100% / 5);
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.s-22 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 300px;
+  height: 800px;
+}
+
+.mainhome1 {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px; /* Added padding for better spacing */
+}
+
+.maintitle {
+  color: #620808;
+  font-size: 23px;
+}
+
+.basicinfo {
+  font-size: 18px;
+  line-height: 1.5; /* Increased line-height for better readability */
+  font-weight: 500;
+  color: #21618c;
+  margin-bottom: 20px; /* Added margin to separate text from image */
+}
+
+.samartlisskola {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 40px 20px 20px 0;
+  display: block;
+  margin: 20px auto;
+  border: 2px solid green;
+}
+
+.basicfigure1 {
+  padding: 10px;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
 }
