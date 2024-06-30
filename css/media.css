@@ -323,6 +323,29 @@
   }
 }
 
+@media (max-width: 450px) {
+
+  .s-33 {
+    height: 550px;
+  }
+
+  .merabturavainfo {
+    font-size: 13px;
+  }
+  .personality{
+    padding: 2px 6px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 5px 5px 0 0;
+  }
+  .quote {
+    font-size: 14px;
+  }
+  .detail-section p {
+    font-size: 14px;
+  }
+}
+
 @media (max-width: 380px) {
   .headericons {
     display: none;
@@ -339,6 +362,9 @@
     font-size: 12px;
   }
 }
+
+
+
 
 @media (max-width: 300) {
   .ptext {
