@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script
       src="https://kit.fontawesome.com/c9ee79a836.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/reset.css" >
+    <link rel="stylesheet" href="css/style.css" >
+    <link rel="stylesheet" href="css/media.css" >
     <title>სამართლის სკოლა</title>
   </head>
   <body>
@@ -19,9 +19,8 @@
           <a href="index.html" class="logo"
             ><img
               src="images/სამართლის_სკოლა-removebg-preview.png"
-              width="50px"
-              alt="skolislogo"
-          /></a>
+              
+              alt="skolislogo" class="skolislogo"></a>
           <p class="schoolname">სამართლის სკოლა</p>
         </div>
         <nav>
@@ -92,9 +91,10 @@
       </div>
     </section>
     <!-- ზოგადი ინფორმაცია სკოლის შესახებ -->
-    <section class="s-2 container" id="section2">
+    <section class="s-2 container" id="section2"><h2 class="h2none">none</h2>
       <div class="main2div">
         <article class="smallinfo">
+          <h2 class="h2none">none</h2>
           <figure class="basicfigure">
             <a href="" class="maintitle"
               >სამართლის სკოლა-ილიას სახელმწიფო უნივერსიტეტი</a
@@ -110,7 +110,7 @@
               >იხილეთ მეტი <i class="fa-solid fa-arrow-right"></i
             ></a>
           </figure>
-          <img src="images/naxemetiimg.jpg" alt="" class="gverditaimg" />
+          <img src="images/naxemetiimg.jpg" alt="" class="gverditaimg">
         </article>
       </div>
     </section>
@@ -142,7 +142,6 @@
           >
         </div>
       </div>
-      <h2></h2>
       <div class="daxasiateba">
         <h3 class="wodeba1">
           საკონსტიტუციო სასამართლოს <span>|თავჯდომარე|</span>
@@ -156,77 +155,75 @@
       </div>
     </section>
     <section class="s-4">
-      <div class="parallax">
-        <main>
+      <div class="parallax">  
           <h2 class="ptext">"საუკეთესო ადგილი იურიდიული განათლებისთვის"</h2>
-        </main>
       </div>
     </section>
     <section class="s-5 container" id="section4">
       <h2 class="contacttext">კითხვის შემთხვევაში დაგვეკონტაქტე!</h2>
-      <main class="mtavaricontact" style="gap: 40px">
-        <form action="" style="flex-direction: column; width: 70%">
+      <div class="mtavaricontact" style="gap: 40px">
+        <form  style="flex-direction: column; width: 70%">
           <div class="mtavarimenu">
             <label for="saxeligvari">სახელი და გვარი</label>
             <input
-              required
+              
               id="saxeligvari"
               type="text"
               placeholder="სახელი და გვარი"
-            />
+            >
           </div>
           <div class="mtavarimenu">
-            <label for="email">თქვენი პირადი / სამუშაო იმეილი</label>
+            <label for="samushao-email">თქვენი პირადი / სამუშაო იმეილი</label>
             <input
-              required
+              
               type="email"
               name="personaluri-email"
               id="samushao-email"
               placeholder="Saxeli.Gvari@gmail.com"
-            />
+            >
           </div>
           <div class="mtavarimenu">
-            <label for="kitxva">კითხვა</label>
+            <label for="mizezi2">კითხვა</label>
             <textarea
-              required
+             
               name="mizezi"
               id="mizezi2"
               placeholder="თქვენი კითხვა"
             ></textarea>
           </div>
           <input
-            required
+            
             type="submit"
             class="submitbutton"
             style="width: 100%"
-          />
+          >
         </form>
-      </main>
+      </div>
     </section>
     <section class="s-6 container" id="section5">
       <h2 class="jointext">
         სკოლაში გაწევრინება გსურს?მაშინ რაღას უცდი?! შემოგვიერთი!
       </h2>
-      <main>
-        <form action="">
+      <div>
+        <form >
           <figure>
             <div class="mtavarimenu">
-              <label for="saxeligvari">მიუთითეთ სახელი და გვარი</label>
+              <label for="saxeligvari2">მიუთითეთ სახელი და გვარი</label>
               <input
-                required
-                id="saxeligvari"
+                
+                id="saxeligvari2"
                 type="text"
                 placeholder="სახელი გვარი"
-              />
+              >
             </div>
             <div class="mtavarimenu">
               <label for="age"> მიუთითეთ წლოვანება</label>
-              <input required id="age" type="text" placeholder="ასაკი" />
+              <input  id="age" type="text" placeholder="ასაკი">
             </div>
             <div class="mtavarimenu">
               <label for="reason">რატომ აირჩიეთ ჩვენი სკოლა?</label>
               <textarea
-                required
+                
                 name="reason1"
                 id="reason"
                 placeholder="ეს სკოლა ავირჩიე იმიტომ, რომ..."
@@ -237,42 +234,42 @@
             <div class="mtavarimenu">
               <label for="email1">შეიყვანეთ პირადი ელფოსტა</label>
               <input
-                required
+                
                 type="email"
                 name="email"
                 id="email1"
                 placeholder="Tsotne.Tivishvili@gmail.com"
-              />
+              >
             </div>
             <div class="mtavarimenu">
               <label for="number">მიუთითეთ თქვენი ნომერი</label>
               <input
-                required
-                type=""
+                
+                
                 name="number"
                 id="number"
                 placeholder="599 45 09 74"
-              />
+              >
             </div>
             <div class="mtavarimenu">
               <label for="personalid">მიუთითეთ მეურვის პირადი ნომერი</label>
               <input
-                required
-                type="personalid"
+                
+                type="text"
                 name="personalid"
                 id="personalid"
-                placeholder="35003299123"
-              />
+                placeholder="პირადი ნომერი"
+              >
             </div>
             <input
-              required
+              
               type="submit"
               class="submitbutton"
               style="width: 100%"
-            />
+            >
           </figure>
         </form>
-      </main>
+      </div>
     </section>
     <footer>
       <div class="container">
@@ -283,7 +280,7 @@
                 src="images/სამართლის_სკოლა-removebg-preview.png"
                 class="footerlogo"
                 alt="Logo"
-              />
+              >
               <p class="footertitle">სამართლის სკოლა</p>
             </a>
             <div class="navigation">
@@ -291,14 +288,14 @@
                 Project Developer/პროექტის შემქმნელია: ცოტნე ტივიშვილი.
               </p>
               <a href="https://www.tbceducation.ge/"
-                ><img width="60px" src="images/tbcL.png" alt="tbclogo"
-              /></a>
+                ><img width="60" src="images/tbcL.png" alt="tbclogo"
+              ></a>
             </div>
           </figure>
           <section>
             <figure>
               <ul>
-                <h4 class="h4footer">კატეგორიები</h4>
+                <li><h4 class="h4footer">კატეგორიები</h4></li>
                 <li>
                   <a href="index.html">მთავარი</a>
                 </li>

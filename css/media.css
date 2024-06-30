@@ -301,7 +301,6 @@
 @media (max-width: 565px) {
   .mosamartleebi {
     font-size: 13px;
-    max-width: auto;
   }
   .gaformeba .gaformeba2 .gaformeba3 {
     padding: 16px;
@@ -361,13 +360,14 @@
   .mttext > p {
     font-size: 12px;
   }
-}
 
-
-
-
-@media (max-width: 300) {
-  .ptext {
-    font-size: 12px;
+  .s-6 {
+    height: 900px;
   }
 }
+
+
+
+
+
+
